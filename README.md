@@ -1,3 +1,8 @@
+## Progress
+Currently have two SERP APIs connected to mcphost
+1. DuckDuckGo
+2. Serper API (google search)
+
 ## Project Structure
 
 ```
