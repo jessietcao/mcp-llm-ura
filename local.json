@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "ollama": {
+      "command": "ollama",
+      "args": ["serve"],
+      "env": {
+        "OLLAMA_HOST": "http://localhost:11434",
+        "OLLAMA_MODEL": "tinyllama"
+      }
+    },
+    "serp": {
+      "command": "docker",
+      "args": ["run", "--rm", "-i", "serp-mcp"]
+    }
+  }
+}
