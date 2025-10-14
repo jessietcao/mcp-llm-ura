@@ -7,7 +7,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY server.py .
 
-ENV SERPER_API_KEY=21825f410c17b13f5c8cb5cff94479ab12801a67
+ENV SERPER_API_KEY="INSERT_UR_OWN_API_KEY_HERE_PLZ"
 
 CMD ["python", "server.py"]
 
