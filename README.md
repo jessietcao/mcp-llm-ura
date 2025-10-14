@@ -12,6 +12,11 @@ llm-mcp-ura/
 
 Ignore the files not listed above 
 
+## Instructions
+
+Sign up at https://serper.dev/playground for the Serper API (Google Search) key.
+DuckDuckGo doesn't need an API key.
+
 Either insert API key in ENV SERPER_API_KEY="INSERT_UR_OWN_API_KEY_HERE_PLZ" for Dockerfile
 or, better,
 
