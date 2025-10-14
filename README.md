@@ -11,3 +11,21 @@ llm-mcp-ura/
 ```
 
 Ignore the files not listed above 
+
+Either insert API key in ENV SERPER_API_KEY="INSERT_UR_OWN_API_KEY_HERE_PLZ" for Dockerfile
+or, better,
+
+delete ENV SERPER_API_KEY="INSERT_UR_OWN_API_KEY_HERE_PLZ" in Dockerfile and create a .env so that
+
+```
+llm-mcp-ura/
+├── servers/
+│   └── serp-mcp/
+│       ├── Dockerfile
+│       ├── requirements.txt
+│       └── server.py
+│       └── .env
+└── local.json
+```
+
+and add SERPER_API_KEY="INSERT_UR_OWN_API_KEY_HERE_PLZ" in .env
